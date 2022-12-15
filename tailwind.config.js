@@ -4,6 +4,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fontFamily: {
+      "roboto": "Roboto, sans-serif"
+    },
     container: {
       center: true,
       paddingLeft: "0.5rem",
