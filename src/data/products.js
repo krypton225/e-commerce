@@ -27,7 +27,7 @@ const products = [
     {
         productTitle: "Phone 1",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
-        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi.",
+        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati. Aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Serferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae",
         productPrice: "$100",
         productImage: {
             imagePath: Image1,
@@ -37,7 +37,7 @@ const products = [
     {
         productTitle: "Phone 2",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
-        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi.",
+        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati. Aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Serferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae",
         productPrice: "$400",
         productImage: {
             imagePath: Image2,
@@ -47,7 +47,7 @@ const products = [
     {
         productTitle: "Phone 3",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
-        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi.",
+        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati. Aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Serferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae",
         productPrice: "$500",
         productImage: {
             imagePath: Image3,
@@ -57,7 +57,7 @@ const products = [
     {
         productTitle: "Phone 4",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
-        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi.",
+        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati. Aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Serferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae",
         productPrice: "$470",
         productImage: {
             imagePath: Image4,
@@ -67,7 +67,7 @@ const products = [
     {
         productTitle: "Phone 5",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
-        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi.",
+        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati. Aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Serferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae",
         productPrice: "$6000",
         productImage: {
             imagePath: Image5,
@@ -77,7 +77,7 @@ const products = [
     {
         productTitle: "Phone 6",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
-        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi.",
+        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati. Aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Serferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae",
         productPrice: "$220",
         productImage: {
             imagePath: Image6,
@@ -87,7 +87,7 @@ const products = [
     {
         productTitle: "Phone 7",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
-        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi.",
+        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati. Aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Serferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae",
         productPrice: "370",
         productImage: {
             imagePath: Image7,
@@ -97,7 +97,7 @@ const products = [
     {
         productTitle: "Phone 8",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
-        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi.",
+        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati. Aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Serferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae",
         productPrice: "$560",
         productImage: {
             imagePath: Image8,
@@ -107,7 +107,7 @@ const products = [
     {
         productTitle: "Phone 9",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
-        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi.",
+        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati. Aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Serferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae",
         productPrice: "$760",
         productImage: {
             imagePath: Image9,
@@ -117,7 +117,7 @@ const products = [
     {
         productTitle: "Phone 10",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
-        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi.",
+        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati. Aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Serferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae",
         productPrice: "$140",
         productImage: {
             imagePath: Image10,
@@ -127,7 +127,7 @@ const products = [
     {
         productTitle: "Phone 11",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
-        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi.",
+        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati. Aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Serferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae",
         productPrice: "$330",
         productImage: {
             imagePath: Image11,
@@ -137,7 +137,7 @@ const products = [
     {
         productTitle: "Phone 12",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
-        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi.",
+        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati. Aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Serferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae",
         productPrice: "$420",
         productImage: {
             imagePath: Image12,
@@ -147,7 +147,7 @@ const products = [
     {
         productTitle: "Phone 13",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
-        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi.",
+        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati. Aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Serferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae",
         productPrice: "$650",
         productImage: {
             imagePath: Image13,
@@ -157,7 +157,7 @@ const products = [
     {
         productTitle: "Phone 14",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
-        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi.",
+        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati. Aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Serferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae",
         productPrice: "$320",
         productImage: {
             imagePath: Image14,
@@ -167,7 +167,7 @@ const products = [
     {
         productTitle: "Phone 15",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
-        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi.",
+        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati. Aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Serferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae",
         productPrice: "$370",
         productImage: {
             imagePath: Image15,
@@ -178,7 +178,7 @@ const products = [
     {
         productTitle: "Phone 16",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
-        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi.",
+        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati. Aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Serferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae",
         productPrice: "$630",
         productImage: {
             imagePath: Image16,
@@ -188,7 +188,7 @@ const products = [
     {
         productTitle: "Phone 17",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
-        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi.",
+        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati. Aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Serferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae",
         productPrice: "$340",
         productImage: {
             imagePath: Image17,
@@ -198,7 +198,7 @@ const products = [
     {
         productTitle: "Phone 18",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
-        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi.",
+        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati. Aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Serferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae",
         productPrice: "$500",
         productImage: {
             imagePath: Image18,
@@ -208,7 +208,7 @@ const products = [
     {
         productTitle: "Phone 19",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
-        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi.",
+        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati. Aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Serferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae",
         productPrice: "$120",
         productImage: {
             imagePath: Image19,
@@ -218,7 +218,7 @@ const products = [
     {
         productTitle: "Phone 20",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
-        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi.",
+        productDeepDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati. Aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Serferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae in obcaecati atque soluta alias suscipit est, omnis corporis veniam autem ipsum. Accusantium, fuga. Quasi. Pic voluptates magnam nostrum commodi, perferendis iste adipisci ratione nemo unde aliquid numquam error cumque delectus molestiae",
         productPrice: "$400",
         productImage: {
             imagePath: Image20,

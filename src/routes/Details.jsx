@@ -1,8 +1,45 @@
+import { useEffect } from "react";
+import { Link, useParams } from "react-router-dom";
+
+import { SectionTitle, LinkDetails } from "../components";
+
+import Product from "../data/products";
+
 const Details = () => {
+    let { id } = useParams();
+    let { id: myID, productTitle, productDescription, productDeepDesc, productPrice, productImage: { imagePath, imageAltText } } =
+        Product.filter((el) => el.id == id)[0];
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
-        <div>
-            Details
-        </div>
+        <section className="section-padding">
+            <div className="container">
+                <div className="w-full text-white grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <div className="w-[90%] md:w-[85%] mx-auto py-6 rounded-2xl bg-dark-1">
+                        <img src={imagePath} alt={imageAltText} className="w-full h-full object-cover" draggable="false" />
+                    </div>
+
+                    <div className="w-full px-6">
+                        <div className="w-full flex justify-evenly items-center">
+                            <SectionTitle innerText={productTitle} marginBottom={false} styleAdditions="text-start" />
+                            <h3 className="py-2 px-4 md:py-3 rounded-2xl flex justify-center items-center text-xl lg:text-3xl text-custom-blue bg-dark-2">
+                                {productPrice}
+                            </h3>
+                        </div>
+
+                        <p className="w-full mt-10 text-lg leading-8">{productDeepDesc}</p>
+
+                        <div className="flex justify-between items-center capitalize">
+                            <Link to={"/"} className="custom-btn text-start">return</Link>
+                            <button className="custom-btn capitalize text-end bg-custom-blue">add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     )
 }
 

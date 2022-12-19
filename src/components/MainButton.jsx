@@ -1,5 +1,5 @@
 const MainButton = ({ productID = "", icon = "", text = "" }) => (
-    <button to={`details/${productID}`} type="button" className="custom-btn text-xl">
+    <button to={`details/${productID}`} type="button" className="custom-btn bg-custom-blue">
         {icon}
     </button>
 );

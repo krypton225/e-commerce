@@ -1,9 +1,8 @@
-const SectionTitle = ({ innerText = "" }) => {
+const SectionTitle = ({ innerText = "", marginBottom = true, styleAdditions = "" }) => {
     return (
-        <h3 className="w-fit py-2 px-4 md:py-3 mx-auto mb-20 block rounded-2xl text-3xl bg-dark-2 text-custom-blue
-        text-center capitalize select-none animate-top-bottom">
-            {innerText}
-        </h3>
+        <h3 className={`w-full mx-auto ${marginBottom ? "mb-20" : ""} inline-block text-xl lg:text-3xl text-center capitalize select-none ${styleAdditions}`}>
+            <span className={`py-2 px-4 md:py-3 rounded-2xl bg-dark-2 text-custom-blue`}>{innerText}</span>
+        </h3 >
     )
 }
 

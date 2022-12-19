@@ -6,7 +6,7 @@
 
 @layer components {
   .section-padding {
-    padding: 12rem 0;
+    padding: 9rem 0;
   }
 
   .line-divider {
@@ -58,5 +58,5 @@ body::-webkit-scrollbar-thumb {
 
 body {
   /* * This height if for checking ONLY and will be removed after the hole app is finished */
-  height: 2000px;
+  /* height: 2000px; */
 }
