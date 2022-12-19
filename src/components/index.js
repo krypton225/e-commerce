@@ -9,3 +9,5 @@ export { default as MainButton } from "./MainButton";
 export { default as LinkDetails } from "./LinkDetails";
 
 export { default as SectionTitle } from "./SectionTitle";
+
+export { default as Product } from "./Product";
