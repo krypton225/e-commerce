@@ -4,6 +4,43 @@
 
 @import "./assets/fonts/roboto/index.css";
 
+@layer components {
+  .section-padding {
+    padding: 12rem 0;
+  }
+
+  .line-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #36393e;
+  }
+
+  .custom-btn {
+    width: 47%;
+    margin-inline: auto;
+    margin-top: 2rem;
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+    border-radius: 0.75rem;
+    border-width: 2px;
+    border-color: #7289da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-weight: 600;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.8s;
+  }
+
+  .custom-btn:hover {
+    border-color: #7289da;
+    background-color: #7289da;
+    color: white;
+  }
+}
+
 body::-webkit-scrollbar {
   width: 0.5rem;
   background-color: #23272a !important;
