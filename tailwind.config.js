@@ -4,7 +4,17 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        topBottom: {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-5px)' }
+        },
+      },
+      animation: {
+        'top-bottom': 'topBottom 2s ease-in-out infinite running both',
+      },
+    },
     container: {
       center: true,
       padding: "1.5rem"

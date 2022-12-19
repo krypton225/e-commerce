@@ -197,7 +197,7 @@ const products = [
         }
     },
     {
-        productTitle: "Phone 14",
+        productTitle: "Phone 20",
         productDescription: "Lorem ipsum dolor sit amet consectetur.",
         productPrice: "$400",
         productImage: {

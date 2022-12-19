@@ -7,3 +7,5 @@ export { default as IconCart } from "./IconCart";
 export { default as MainButton } from "./MainButton";
 
 export { default as LinkDetails } from "./LinkDetails";
+
+export { default as SectionTitle } from "./SectionTitle";
