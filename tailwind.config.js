@@ -4,15 +4,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    extend: {},
+    container: {
+      center: true,
+      padding: "1.5rem"
+    },
     fontFamily: {
       "roboto": "Roboto, sans-serif"
     },
-    container: {
-      center: true,
-      paddingLeft: "0.5rem",
-      paddingRight: "0.5rem"
-    },
-    extend: {},
     colors: {
       "dark-3": "#23272a",
       "dark-2": "#36393e",
@@ -22,5 +21,5 @@ module.exports = {
       "custom-blue": "#7289da",
     }
   },
-  plugins: [],
+  plugins: ["tailwindcss, autoprefixer"],
 }

@@ -3,3 +3,23 @@
 @tailwind utilities;
 
 @import "./assets/fonts/roboto/index.css";
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: #23272a !important;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent !important;
+}
+
+body::-webkit-scrollbar-thumb {
+  height: 6rem;
+  border-radius: 4.5rem;
+  background-color: #7289da;
+}
+
+body {
+  /* * This height if for checking ONLY and will be removed after the hole app is finished */
+  height: 2000px;
+}
