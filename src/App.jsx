@@ -1,10 +1,22 @@
+import { Routes, Route } from "react-router-dom";
+
 import { Navbar } from "./components";
 
-const App = () => (
-  <div className="bg-dark-3">
-    <Navbar />
-    App
-  </div>
-);
+import { Home, Cart, Details } from "./routes";
+
+const App = () => {
+  return (
+    <div className="bg-dark-3">
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="cart" element={<Cart />} />
+        <Route path="details/:id" element={<Details />} />
+      </Routes>
+      App
+    </div>
+  )
+};
 
 export default App;
