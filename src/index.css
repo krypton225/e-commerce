@@ -41,6 +41,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body::-webkit-scrollbar {
   width: 0.5rem;
   background-color: #23272a !important;
