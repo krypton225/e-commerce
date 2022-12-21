@@ -10,8 +10,7 @@ import Product from "../data/products";
 
 const Details = () => {
     let { id } = useParams();
-    let { id: myID, productTitle, productDescription, productDeepDesc, productPrice, productImage: { imagePath, imageAltText } } =
-        Product.filter((el) => el.id == id)[0];
+    let { productTitle, productDeepDesc, productPrice, productImage: { imagePath, imageAltText } } = Product.filter((el) => el.id == id)[0];
 
     useEffect(() => {
         window.scrollTo(0, 0);
