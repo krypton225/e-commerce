@@ -11,3 +11,5 @@ export { default as LinkDetails } from "./LinkDetails";
 export { default as SectionTitle } from "./SectionTitle";
 
 export { default as Product } from "./Product";
+
+export { default as ListCart } from "./ListCart";

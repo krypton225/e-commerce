@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 
-import { Navbar } from "./components";
+import { ListCart, Navbar } from "./components";
 
 import { Home, Cart, Details } from "./routes";
 
@@ -12,7 +12,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="cart" element={<Cart />} />
+        <Route path="list" element={<ListCart />} />
         <Route path="details/:id" element={<Details />} />
+        <Route path="list/details/:id" element={<Details />} />
       </Routes>
     </div>
   )

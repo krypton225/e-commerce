@@ -1,11 +1,21 @@
+import { useRecoilState } from "recoil";
+import { cartAtom } from "../atoms/cartAtom";
+
+import { Link } from "react-router-dom";
+
 import { AiOutlineShoppingCart } from "react-icons/ai";
 
-const IconCart = () => (
-    <div className="relative before:content-[''] before:absolute before:-top-1 before:-right-2 before:w-1 before:h-1 before:p-3 before:rounded-full before:bg-custom-blue before:flex before:justify-center before:items-center before:text-sm before:font-semibold">
-        <a href="/" className={`inline-block py-2 px-4 text-2xl md:text-3xl`}>
-            <AiOutlineShoppingCart />
-        </a>
-    </div>
-);
+const IconCart = () => {
+    const [arr] = useRecoilState(cartAtom);
+
+    return (
+        <Link to={"list"} className="relative">
+            <AiOutlineShoppingCart size={24} />
+            <span className="absolute -top-3 -right-6 w-1 h-1 p-3 rounded-full bg-custom-blue flex justify-center items-center text-sm font-semibold">
+                {arr.length}
+            </span>
+        </Link>
+    )
+}
 
 export default IconCart;

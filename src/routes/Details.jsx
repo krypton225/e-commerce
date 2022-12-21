@@ -1,4 +1,5 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+
 import { Link, useParams } from "react-router-dom";
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -9,18 +10,23 @@ import { SectionTitle } from "../components";
 import Product from "../data/products";
 
 const Details = () => {
+    const [checkURL, setCheckURL] = useState(false);
+
     let { id } = useParams();
     let { productTitle, productDeepDesc, productPrice, productImage: { imagePath, imageAltText } } = Product.filter((el) => el.id == id)[0];
 
+    const checkListInURL = () => window.location.pathname.split("/").includes("list");
+
     useEffect(() => {
         window.scrollTo(0, 0);
+        setCheckURL(checkListInURL);
     }, []);
 
     return (
         <section className="section-padding">
             <div className="container">
                 <div className="w-full text-white grid grid-cols-1 lg:grid-cols-2 gap-8">
-                    <div className="w-[90%] md:w-[85%] mx-auto py-6 rounded-2xl bg-dark-1">
+                    <div className="w-[90%] md:w-[85%] mx-auto py-6 flex justify-center items-center rounded-2xl bg-dark-1">
                         <LazyLoadImage src={imagePath} alt={imageAltText} className="w-full h-full object-cover" draggable="false"
                             effect={"blur"} delayTime={"400"} />
                     </div>
@@ -36,8 +42,17 @@ const Details = () => {
                         <p className="w-full mt-10 text-lg leading-8">{productDeepDesc}</p>
 
                         <div className="flex justify-between items-center capitalize">
-                            <Link to={"/"} className="custom-btn text-start">return</Link>
-                            <button className="custom-btn capitalize text-end bg-custom-blue">add to cart</button>
+                            {
+                                checkURL ?
+                                    <>
+                                        <Link to={"/list"} className="custom-btn text-start">return</Link>
+                                    </>
+                                    :
+                                    <>
+                                        <Link to={"/"} className="custom-btn text-start">return</Link>
+                                        <button className="custom-btn capitalize text-end bg-custom-blue">add to cart</button>
+                                    </>
+                            }
                         </div>
                     </div>
                 </div>
