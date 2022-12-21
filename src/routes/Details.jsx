@@ -1,7 +1,10 @@
 import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 
-import { SectionTitle, LinkDetails } from "../components";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
+import { SectionTitle } from "../components";
 
 import Product from "../data/products";
 
@@ -19,7 +22,8 @@ const Details = () => {
             <div className="container">
                 <div className="w-full text-white grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <div className="w-[90%] md:w-[85%] mx-auto py-6 rounded-2xl bg-dark-1">
-                        <img src={imagePath} alt={imageAltText} className="w-full h-full object-cover" draggable="false" />
+                        <LazyLoadImage src={imagePath} alt={imageAltText} className="w-full h-full object-cover" draggable="false"
+                            effect={"blur"} delayTime={"400"} />
                     </div>
 
                     <div className="w-full px-6">
