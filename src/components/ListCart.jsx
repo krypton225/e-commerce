@@ -18,7 +18,7 @@ const ListCart = () => {
 
     return (
         <section className="section-padding relative">
-            <Link to={"/"} className="custom-btn w-fit bg-custom-blue border-0 capitalize fixed right-4 bottom-8 z-[999999999]">
+            <Link to={"/"} className="custom-btn w-fit bg-custom-blue border-0 capitalize fixed right-8 bottom-24 z-[999999999]">
                 <AiOutlineArrowRight />
             </Link>
 
