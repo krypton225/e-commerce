@@ -9,14 +9,9 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import { LinkDetails } from "../components";
 
 const Product = ({ product = {}, list = false }) => {
-
     const setArr = useSetRecoilState(cartAtom);
 
-    const myClick = () => {
-        setArr((prev) => [
-            ...prev, product
-        ])
-    }
+    const addNewItem = () => setArr((prev) => [...prev, product])
 
     return (
         <div className="min-[100px]:w-[90%] max-[639px]:w-[90%] min-[640px]:w-[90%] max-[767px]:w-[90%] md:w-full h-full relative mx-auto py-6 px-4 rounded-2xl text-center text-white bg-dark-1 overflow-hidden transition-all hover:bg-[#36393e]" >
@@ -37,7 +32,7 @@ const Product = ({ product = {}, list = false }) => {
             <div className="flex justify-between items-center">
                 <LinkDetails mainProduct={product} />
                 {list ? "" :
-                    <button to={`details/${product}`} type="button" className="custom-btn bg-custom-blue" onClick={myClick}>
+                    <button to={`details/${product}`} type="button" className="custom-btn bg-custom-blue" onClick={addNewItem}>
                         <AiOutlineShoppingCart size={24} />
                     </button>
                 }
