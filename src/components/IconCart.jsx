@@ -13,11 +13,11 @@ const IconCart = () => {
     let myArrAfterFiltered = filterArr(arr);
 
     return (
-        <Link to={"list"} className="relative">
+        <Link to={"list"} className="p-[0.75rem] relative">
             <AiOutlineShoppingCart size={24} />
             {
                 myArrAfterFiltered.length === 0 ? "" :
-                    <span className="absolute -top-3 -right-6 w-1 h-1 p-3 rounded-full bg-custom-blue flex justify-center items-center text-sm font-semibold">
+                    <span className="absolute -top-2 -right-3 w-1 h-1 p-3 rounded-full bg-custom-blue flex justify-center items-center text-sm font-semibold">
                         {myArrAfterFiltered.length}
                     </span>
             }
