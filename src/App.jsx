@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 
-import { GoToTop, ListCart, Navbar } from "./components";
+import { ErrorPage, GoToTop, ListCart, Navbar } from "./components";
 
 import { Home, Cart, Details } from "./routes";
 
@@ -16,6 +16,7 @@ const App = () => {
         <Route path="list" element={<ListCart />} />
         <Route path="details/:id" element={<Details />} />
         <Route path="list/details/:id" element={<Details />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </div>
   )
