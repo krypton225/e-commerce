@@ -1,8 +1,8 @@
+import AllRoutes from "./data/routes";
+
 import { Routes, Route } from "react-router-dom";
 
-import { ErrorPage, GoToTop, ListCart, Navbar } from "./components";
-
-import { Home, Cart, Details } from "./routes";
+import { GoToTop, Navbar } from "./components";
 
 const App = () => {
   return (
@@ -11,12 +11,9 @@ const App = () => {
       <GoToTop />
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="cart" element={<Cart />} />
-        <Route path="list" element={<ListCart />} />
-        <Route path="details/:id" element={<Details />} />
-        <Route path="list/details/:id" element={<Details />} />
-        <Route path="*" element={<ErrorPage />} />
+        {
+          AllRoutes.map(({ id, path, element }) => (<Route key={id} path={path} element={element} />))
+        }
       </Routes>
     </div>
   )

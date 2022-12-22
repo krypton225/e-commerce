@@ -12,8 +12,4 @@ export { default as SectionTitle } from "./SectionTitle";
 
 export { default as Product } from "./Product";
 
-export { default as ListCart } from "./ListCart";
-
 export { default as GoToTop } from "./GoToTop";
-
-export { default as ErrorPage } from "./ErrorPage";
